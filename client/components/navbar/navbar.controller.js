@@ -5,6 +5,18 @@ angular.module('adCastleApp')
     $scope.menu = [{
       'title': 'Home',
       'link': '/'
+    }, {
+      'title': 'About',
+      'link': '#'
+    }, {
+      'title': 'Membership',
+      'link': '#'
+    }, {
+      'title': 'Advertising',
+      'link': '#'
+    }, {
+      'title': 'Donation',
+      'link': '#'
     }];
 
     $scope.isCollapsed = true;
