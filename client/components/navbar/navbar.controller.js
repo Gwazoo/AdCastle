@@ -7,7 +7,7 @@ angular.module('adCastleApp')
       'link': '/'
     }, {
       'title': 'About',
-      'link': '#'
+      'link': '/about'
     }, {
       'title': 'Membership',
       'link': '#'
