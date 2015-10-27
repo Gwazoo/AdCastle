@@ -10,13 +10,13 @@ angular.module('adCastleApp')
       'link': '/about'
     }, {
       'title': 'Membership',
-      'link': '#'
+      'link': '/membership'
     }, {
       'title': 'Advertising',
-      'link': '#'
+      'link': '/advertising'
     }, {
       'title': 'Donation',
-      'link': '#'
+      'link': '/donation'
     }];
 
     $scope.isCollapsed = true;
