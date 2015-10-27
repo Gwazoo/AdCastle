@@ -1,9 +1,10 @@
 # Getting Started
 
-1. Run `git clone git@github.com:Gwazoo/AdCastle.git`
-2. `cd` into the root directory
-3. Run `npm i`
-4. Run `grunt serve`
+1. Run `npm i -g yo grunt-cli bower generator-angular-fullstack`
+2. Run `git clone git@github.com:Gwazoo/AdCastle.git`
+3. `cd` into the root directory
+4. Run `npm i`
+5. Run `grunt serve`
 
 # Client
 
