@@ -1,10 +1,13 @@
 # Getting Started
 
-1. Run `npm i -g yo grunt-cli bower generator-angular-fullstack`
-2. Run `git clone git@github.com:Gwazoo/AdCastle.git`
-3. `cd` into the root directory
-4. Run `npm i`
-5. Run `grunt serve`
+1. Install Node
+2. Install Sass (Mac: run `sudo gem install sass`)
+3. Install MongoDB and run `mongod`
+4. Run `npm i -g yo grunt-cli bower generator-angular-fullstack`
+5. Run `git clone git@github.com:Gwazoo/AdCastle.git`
+6. `cd` into the root directory
+7. Run `npm i`
+8. Run `grunt serve`
 
 # Client
 
