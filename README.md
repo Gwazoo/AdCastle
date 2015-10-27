@@ -1,8 +1,8 @@
 # Getting Started
 
-1. Git clone the repo
-2. Cd into root
-3. run `grunt serve`
+1. Run `git clone git@github.com:Gwazoo/AdCastle.git`
+2. `cd` into the root directory
+3. Run `grunt serve`
 
 # Client
 
