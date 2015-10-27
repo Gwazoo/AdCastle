@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('adCastleApp')
-  .controller('NavbarCtrl', function ($scope, $location, Auth) {
+  .controller('NavbarCtrl', function ($scope, $location, $cookieStore, Auth) {
     $scope.menu = [{
       'title': 'Home',
       'link': '/'
@@ -18,6 +18,14 @@ angular.module('adCastleApp')
       'title': 'Donation',
       'link': '/donation'
     }];
+
+    $scope.closeAlert = function() {
+      $cookieStore.put('alertClosed', true);
+      $scope.alertClosed = true;
+    };
+
+    $scope.alertClosed = $cookieStore.get('alertClosed');
+    console.log($cookieStore.get('alertClosed'));
 
     $scope.isCollapsed = true;
     $scope.isLoggedIn = Auth.isLoggedIn;
